@@ -8,6 +8,7 @@ target 'Apply-Stefanini_Raizen' do
   use_frameworks!
 
   # Pods for Apply-Stefanini_Raizen
+  pod 'Alamofire', '~> 5.2'
 
   target 'Apply-Stefanini_RaizenTests' do
     inherit! :search_paths
