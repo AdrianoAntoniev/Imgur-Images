@@ -14,7 +14,6 @@
 		B9BAF06D261CE0FF005CE25B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BAF06C261CE0FF005CE25B /* Preview Assets.xcassets */; };
 		B9BAF070261CE0FF005CE25B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BAF06E261CE0FF005CE25B /* LaunchScreen.storyboard */; };
 		B9BAF07B261CE0FF005CE25B /* Apply_Stefanini_RaizenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAF07A261CE0FF005CE25B /* Apply_Stefanini_RaizenTests.swift */; };
-		B9BAF086261CE0FF005CE25B /* Apply_Stefanini_RaizenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAF085261CE0FF005CE25B /* Apply_Stefanini_RaizenUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +46,6 @@
 		B9BAF07A261CE0FF005CE25B /* Apply_Stefanini_RaizenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apply_Stefanini_RaizenTests.swift; sourceTree = "<group>"; };
 		B9BAF07C261CE0FF005CE25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9BAF081261CE0FF005CE25B /* Apply-Stefanini_RaizenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apply-Stefanini_RaizenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9BAF085261CE0FF005CE25B /* Apply_Stefanini_RaizenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apply_Stefanini_RaizenUITests.swift; sourceTree = "<group>"; };
-		B9BAF087261CE0FF005CE25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +78,6 @@
 			children = (
 				B9BAF062261CE0FA005CE25B /* Apply-Stefanini_Raizen */,
 				B9BAF079261CE0FF005CE25B /* Apply-Stefanini_RaizenTests */,
-				B9BAF084261CE0FF005CE25B /* Apply-Stefanini_RaizenUITests */,
 				B9BAF061261CE0FA005CE25B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,15 +121,6 @@
 				B9BAF07C261CE0FF005CE25B /* Info.plist */,
 			);
 			path = "Apply-Stefanini_RaizenTests";
-			sourceTree = "<group>";
-		};
-		B9BAF084261CE0FF005CE25B /* Apply-Stefanini_RaizenUITests */ = {
-			isa = PBXGroup;
-			children = (
-				B9BAF085261CE0FF005CE25B /* Apply_Stefanini_RaizenUITests.swift */,
-				B9BAF087261CE0FF005CE25B /* Info.plist */,
-			);
-			path = "Apply-Stefanini_RaizenUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9BAF086261CE0FF005CE25B /* Apply_Stefanini_RaizenUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
