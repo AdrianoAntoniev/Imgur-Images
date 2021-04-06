@@ -1,0 +1,6 @@
+framework module Pods_Apply_Stefanini_Raizen_Apply_Stefanini_RaizenUITests {
+  umbrella header "Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

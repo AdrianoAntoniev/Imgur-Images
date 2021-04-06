@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AFA0318F3EABA4646ACBB4B /* Pods_Apply_Stefanini_RaizenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DB3AAADD26EACD114DEA91 /* Pods_Apply_Stefanini_RaizenTests.framework */; };
+		834DD5023C5BED6B4492D366 /* Pods_Apply_Stefanini_Raizen_Apply_Stefanini_RaizenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C72EE5D0D70AA00041ABF7 /* Pods_Apply_Stefanini_Raizen_Apply_Stefanini_RaizenUITests.framework */; };
+		9383E56DDF484097DE2E6963 /* Pods_Apply_Stefanini_Raizen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5FF58F191B737662FC9A4D /* Pods_Apply_Stefanini_Raizen.framework */; };
 		B9BAF064261CE0FA005CE25B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAF063261CE0FA005CE25B /* AppDelegate.swift */; };
 		B9BAF066261CE0FA005CE25B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAF065261CE0FA005CE25B /* SceneDelegate.swift */; };
 		B9BAF068261CE0FA005CE25B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAF067261CE0FA005CE25B /* ContentView.swift */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04CA4360826DA6E2D46FFD7D /* Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests.release.xcconfig"; path = "Target Support Files/Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests/Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1724388EEA5E81710AFAE941 /* Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests.debug.xcconfig"; path = "Target Support Files/Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests/Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		491FFFCD2E149B8C5F288084 /* Pods-Apply-Stefanini_Raizen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apply-Stefanini_Raizen.debug.xcconfig"; path = "Target Support Files/Pods-Apply-Stefanini_Raizen/Pods-Apply-Stefanini_Raizen.debug.xcconfig"; sourceTree = "<group>"; };
+		55875CA14153D4310E535420 /* Pods-Apply-Stefanini_RaizenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apply-Stefanini_RaizenTests.release.xcconfig"; path = "Target Support Files/Pods-Apply-Stefanini_RaizenTests/Pods-Apply-Stefanini_RaizenTests.release.xcconfig"; sourceTree = "<group>"; };
+		62DB3AAADD26EACD114DEA91 /* Pods_Apply_Stefanini_RaizenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apply_Stefanini_RaizenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67C72EE5D0D70AA00041ABF7 /* Pods_Apply_Stefanini_Raizen_Apply_Stefanini_RaizenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apply_Stefanini_Raizen_Apply_Stefanini_RaizenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0DFAE35CE27B56DA08FAAF /* Pods-Apply-Stefanini_Raizen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apply-Stefanini_Raizen.release.xcconfig"; path = "Target Support Files/Pods-Apply-Stefanini_Raizen/Pods-Apply-Stefanini_Raizen.release.xcconfig"; sourceTree = "<group>"; };
+		6C5FF58F191B737662FC9A4D /* Pods_Apply_Stefanini_Raizen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apply_Stefanini_Raizen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BAF060261CE0FA005CE25B /* Apply-Stefanini_Raizen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apply-Stefanini_Raizen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BAF063261CE0FA005CE25B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9BAF065261CE0FA005CE25B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +57,7 @@
 		B9BAF07A261CE0FF005CE25B /* Apply_Stefanini_RaizenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apply_Stefanini_RaizenTests.swift; sourceTree = "<group>"; };
 		B9BAF07C261CE0FF005CE25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9BAF081261CE0FF005CE25B /* Apply-Stefanini_RaizenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apply-Stefanini_RaizenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46FFD73FD7BAAFBD5935C50 /* Pods-Apply-Stefanini_RaizenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apply-Stefanini_RaizenTests.debug.xcconfig"; path = "Target Support Files/Pods-Apply-Stefanini_RaizenTests/Pods-Apply-Stefanini_RaizenTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9383E56DDF484097DE2E6963 /* Pods_Apply_Stefanini_Raizen.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AFA0318F3EABA4646ACBB4B /* Pods_Apply_Stefanini_RaizenTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,18 +81,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834DD5023C5BED6B4492D366 /* Pods_Apply_Stefanini_Raizen_Apply_Stefanini_RaizenUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		557D43846EFED9D77A0BD9EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				491FFFCD2E149B8C5F288084 /* Pods-Apply-Stefanini_Raizen.debug.xcconfig */,
+				6C0DFAE35CE27B56DA08FAAF /* Pods-Apply-Stefanini_Raizen.release.xcconfig */,
+				1724388EEA5E81710AFAE941 /* Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests.debug.xcconfig */,
+				04CA4360826DA6E2D46FFD7D /* Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests.release.xcconfig */,
+				D46FFD73FD7BAAFBD5935C50 /* Pods-Apply-Stefanini_RaizenTests.debug.xcconfig */,
+				55875CA14153D4310E535420 /* Pods-Apply-Stefanini_RaizenTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7416354BA6FD3249ADAFC2F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C5FF58F191B737662FC9A4D /* Pods_Apply_Stefanini_Raizen.framework */,
+				67C72EE5D0D70AA00041ABF7 /* Pods_Apply_Stefanini_Raizen_Apply_Stefanini_RaizenUITests.framework */,
+				62DB3AAADD26EACD114DEA91 /* Pods_Apply_Stefanini_RaizenTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B9BAF057261CE0FA005CE25B = {
 			isa = PBXGroup;
 			children = (
 				B9BAF062261CE0FA005CE25B /* Apply-Stefanini_Raizen */,
 				B9BAF079261CE0FF005CE25B /* Apply-Stefanini_RaizenTests */,
 				B9BAF061261CE0FA005CE25B /* Products */,
+				557D43846EFED9D77A0BD9EC /* Pods */,
+				7416354BA6FD3249ADAFC2F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +171,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9BAF08A261CE0FF005CE25B /* Build configuration list for PBXNativeTarget "Apply-Stefanini_Raizen" */;
 			buildPhases = (
+				A2A2747C78DFCAE9EAE7E658 /* [CP] Check Pods Manifest.lock */,
 				B9BAF05C261CE0FA005CE25B /* Sources */,
 				B9BAF05D261CE0FA005CE25B /* Frameworks */,
 				B9BAF05E261CE0FA005CE25B /* Resources */,
@@ -147,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9BAF08D261CE0FF005CE25B /* Build configuration list for PBXNativeTarget "Apply-Stefanini_RaizenTests" */;
 			buildPhases = (
+				CAA406CC508A0E48BA39E887 /* [CP] Check Pods Manifest.lock */,
 				B9BAF072261CE0FF005CE25B /* Sources */,
 				B9BAF073261CE0FF005CE25B /* Frameworks */,
 				B9BAF074261CE0FF005CE25B /* Resources */,
@@ -165,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9BAF090261CE0FF005CE25B /* Build configuration list for PBXNativeTarget "Apply-Stefanini_RaizenUITests" */;
 			buildPhases = (
+				C7F29E615C993AD03E10A3DB /* [CP] Check Pods Manifest.lock */,
 				B9BAF07D261CE0FF005CE25B /* Sources */,
 				B9BAF07E261CE0FF005CE25B /* Frameworks */,
 				B9BAF07F261CE0FF005CE25B /* Resources */,
@@ -247,6 +291,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A2A2747C78DFCAE9EAE7E658 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Apply-Stefanini_Raizen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7F29E615C993AD03E10A3DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAA406CC508A0E48BA39E887 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Apply-Stefanini_RaizenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B9BAF05C261CE0FA005CE25B /* Sources */ = {
@@ -419,6 +532,7 @@
 		};
 		B9BAF08B261CE0FF005CE25B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 491FFFCD2E149B8C5F288084 /* Pods-Apply-Stefanini_Raizen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,6 +554,7 @@
 		};
 		B9BAF08C261CE0FF005CE25B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C0DFAE35CE27B56DA08FAAF /* Pods-Apply-Stefanini_Raizen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +576,7 @@
 		};
 		B9BAF08E261CE0FF005CE25B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D46FFD73FD7BAAFBD5935C50 /* Pods-Apply-Stefanini_RaizenTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -483,6 +599,7 @@
 		};
 		B9BAF08F261CE0FF005CE25B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55875CA14153D4310E535420 /* Pods-Apply-Stefanini_RaizenTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +622,7 @@
 		};
 		B9BAF091261CE0FF005CE25B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1724388EEA5E81710AFAE941 /* Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +643,7 @@
 		};
 		B9BAF092261CE0FF005CE25B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CA4360826DA6E2D46FFD7D /* Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

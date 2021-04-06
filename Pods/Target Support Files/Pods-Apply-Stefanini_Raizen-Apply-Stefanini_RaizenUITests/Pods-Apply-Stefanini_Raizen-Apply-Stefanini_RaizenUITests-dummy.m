@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Apply_Stefanini_Raizen_Apply_Stefanini_RaizenUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Apply_Stefanini_Raizen_Apply_Stefanini_RaizenUITests
+@end
