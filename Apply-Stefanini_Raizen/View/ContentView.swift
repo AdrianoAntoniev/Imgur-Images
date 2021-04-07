@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var imagesRepository = ImagesRepository()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-            .onAppear {
-                let _ = FetchingData()
-            }
+        ForEach(imagesRepository.images, id: \.self) { image in
+            Text(image.imageLink)
+        }
     }
 }
 
