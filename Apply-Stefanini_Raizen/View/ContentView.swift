@@ -10,21 +10,24 @@ import SDWebImageSwiftUI
 
 struct ContentView: View {
     @ObservedObject var imagesRepository = ImagesRepository()
-    private let gridLayout = [GridItem(.flexible()),
-                              GridItem(.flexible()),
-                              GridItem(.flexible()),
-                              GridItem(.flexible())]
+    private let gridLayout = [GridItem(.flexible(minimum: 10)),
+                              GridItem(.flexible(minimum: 10)),
+                              GridItem(.flexible(minimum: 10)),
+                              GridItem(.flexible(minimum: 10))]
     
     
     var body: some View {
-        ScrollView {
-            LazyVGrid(columns: gridLayout) {
-                ForEach(imagesRepository.images, id: \.self) { image in
-                    ImageView(urlImage: image.imageLink)
+        NavigationView {
+            ScrollView {
+                LazyVGrid(columns: gridLayout, spacing: 10) {
+                    ForEach(imagesRepository.images, id: \.self) { image in
+                        ImageView(image: image)
+                    }
                 }
+                .padding(10)
             }
+            .navigationBarTitle(Text("Imgur Images"), displayMode: .large)
         }
-        
     }
 }
 

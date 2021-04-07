@@ -12,6 +12,7 @@
 		9383E56DDF484097DE2E6963 /* Pods_Apply_Stefanini_Raizen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5FF58F191B737662FC9A4D /* Pods_Apply_Stefanini_Raizen.framework */; };
 		B925493E261D3A6900B4349F /* ImagesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925493D261D3A6900B4349F /* ImagesRepository.swift */; };
 		B932A48F261D46B100ED8055 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B932A48E261D46B100ED8055 /* ImageView.swift */; };
+		B932A496261D50BA00ED8055 /* DetailsImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B932A495261D50BA00ED8055 /* DetailsImageView.swift */; };
 		B96F6366261D1DE100E845BF /* FetchingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96F6365261D1DE100E845BF /* FetchingData.swift */; };
 		B99E1475261D34800098B740 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99E1474261D34800098B740 /* Image.swift */; };
 		B9BAF064261CE0FA005CE25B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAF063261CE0FA005CE25B /* AppDelegate.swift */; };
@@ -52,6 +53,7 @@
 		6C5FF58F191B737662FC9A4D /* Pods_Apply_Stefanini_Raizen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apply_Stefanini_Raizen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B925493D261D3A6900B4349F /* ImagesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesRepository.swift; sourceTree = "<group>"; };
 		B932A48E261D46B100ED8055 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		B932A495261D50BA00ED8055 /* DetailsImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsImageView.swift; sourceTree = "<group>"; };
 		B96F6365261D1DE100E845BF /* FetchingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchingData.swift; sourceTree = "<group>"; };
 		B99E1474261D34800098B740 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		B9BAF060261CE0FA005CE25B /* Apply-Stefanini_Raizen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apply-Stefanini_Raizen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +128,7 @@
 			children = (
 				B9BAF067261CE0FA005CE25B /* ContentView.swift */,
 				B932A48E261D46B100ED8055 /* ImageView.swift */,
+				B932A495261D50BA00ED8055 /* DetailsImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 			files = (
 				B932A48F261D46B100ED8055 /* ImageView.swift in Sources */,
 				B9BAF064261CE0FA005CE25B /* AppDelegate.swift in Sources */,
+				B932A496261D50BA00ED8055 /* DetailsImageView.swift in Sources */,
 				B9BAF066261CE0FA005CE25B /* SceneDelegate.swift in Sources */,
 				B925493E261D3A6900B4349F /* ImagesRepository.swift in Sources */,
 				B9BAF068261CE0FA005CE25B /* ContentView.swift in Sources */,

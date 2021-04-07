@@ -9,22 +9,21 @@ import SwiftUI
 import SDWebImageSwiftUI
 
 struct ImageView: View {
-    let urlImage: URL
+    let image: Image
     
-    init(urlImage: String) {
-        self.urlImage = URL(string: urlImage)!
-    }
     
     var body: some View {
-        WebImage(url: urlImage)
+        NavigationLink(destination: DetailsImageView(image: self.image)) {
+            WebImage(url: URL(string: image.imageLink)!)
             .resizable()
             .frame(width: 100, height: 120)
-            .shadow(color: .gray, radius: 5)            
+            .shadow(color: .gray, radius: 5)
+        }
     }
 }
 
 struct ImageView_Previews: PreviewProvider {
     static var previews: some View {
-        ImageView(urlImage: "test")
+        ImageView(image: Image(description: "blank", views: 0, imageLink: "blank"))
     }
 }
