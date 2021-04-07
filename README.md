@@ -26,3 +26,6 @@ Requisitos
 - SDWebImageSwiftUI.
 
 
+<p align="center">
+  <img src="https://github.com/AdrianoAntoniev/Imgur-Images/blob/main/output.gif?raw=true" alt="App gif"/>
+</p>
