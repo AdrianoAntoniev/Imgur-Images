@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7AFA0318F3EABA4646ACBB4B /* Pods_Apply_Stefanini_RaizenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62DB3AAADD26EACD114DEA91 /* Pods_Apply_Stefanini_RaizenTests.framework */; };
-		834DD5023C5BED6B4492D366 /* Pods_Apply_Stefanini_Raizen_Apply_Stefanini_RaizenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C72EE5D0D70AA00041ABF7 /* Pods_Apply_Stefanini_Raizen_Apply_Stefanini_RaizenUITests.framework */; };
 		9383E56DDF484097DE2E6963 /* Pods_Apply_Stefanini_Raizen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5FF58F191B737662FC9A4D /* Pods_Apply_Stefanini_Raizen.framework */; };
 		B925493E261D3A6900B4349F /* ImagesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B925493D261D3A6900B4349F /* ImagesRepository.swift */; };
 		B932A48F261D46B100ED8055 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B932A48E261D46B100ED8055 /* ImageView.swift */; };
@@ -27,13 +26,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		B9BAF077261CE0FF005CE25B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B9BAF058261CE0FA005CE25B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B9BAF05F261CE0FA005CE25B;
-			remoteInfo = "Apply-Stefanini_Raizen";
-		};
-		B9BAF082261CE0FF005CE25B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B9BAF058261CE0FA005CE25B /* Project object */;
 			proxyType = 1;
@@ -67,7 +59,6 @@
 		B9BAF076261CE0FF005CE25B /* Apply-Stefanini_RaizenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apply-Stefanini_RaizenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BAF07A261CE0FF005CE25B /* Apply_Stefanini_RaizenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apply_Stefanini_RaizenTests.swift; sourceTree = "<group>"; };
 		B9BAF07C261CE0FF005CE25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9BAF081261CE0FF005CE25B /* Apply-Stefanini_RaizenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apply-Stefanini_RaizenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9F80D6D261D2CF100DED958 /* PostsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsData.swift; sourceTree = "<group>"; };
 		D46FFD73FD7BAAFBD5935C50 /* Pods-Apply-Stefanini_RaizenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apply-Stefanini_RaizenTests.debug.xcconfig"; path = "Target Support Files/Pods-Apply-Stefanini_RaizenTests/Pods-Apply-Stefanini_RaizenTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,14 +77,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AFA0318F3EABA4646ACBB4B /* Pods_Apply_Stefanini_RaizenTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9BAF07E261CE0FF005CE25B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				834DD5023C5BED6B4492D366 /* Pods_Apply_Stefanini_Raizen_Apply_Stefanini_RaizenUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +161,6 @@
 			children = (
 				B9BAF060261CE0FA005CE25B /* Apply-Stefanini_Raizen.app */,
 				B9BAF076261CE0FF005CE25B /* Apply-Stefanini_RaizenTests.xctest */,
-				B9BAF081261CE0FF005CE25B /* Apply-Stefanini_RaizenUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -254,26 +236,6 @@
 			productReference = B9BAF076261CE0FF005CE25B /* Apply-Stefanini_RaizenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B9BAF080261CE0FF005CE25B /* Apply-Stefanini_RaizenUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B9BAF090261CE0FF005CE25B /* Build configuration list for PBXNativeTarget "Apply-Stefanini_RaizenUITests" */;
-			buildPhases = (
-				C7F29E615C993AD03E10A3DB /* [CP] Check Pods Manifest.lock */,
-				B9BAF07D261CE0FF005CE25B /* Sources */,
-				B9BAF07E261CE0FF005CE25B /* Frameworks */,
-				B9BAF07F261CE0FF005CE25B /* Resources */,
-				A53EFE2C2B6275C4B8C77C89 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B9BAF083261CE0FF005CE25B /* PBXTargetDependency */,
-			);
-			name = "Apply-Stefanini_RaizenUITests";
-			productName = "Apply-Stefanini_RaizenUITests";
-			productReference = B9BAF081261CE0FF005CE25B /* Apply-Stefanini_RaizenUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -287,10 +249,6 @@
 						CreatedOnToolsVersion = 12.4;
 					};
 					B9BAF075261CE0FF005CE25B = {
-						CreatedOnToolsVersion = 12.4;
-						TestTargetID = B9BAF05F261CE0FA005CE25B;
-					};
-					B9BAF080261CE0FF005CE25B = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = B9BAF05F261CE0FA005CE25B;
 					};
@@ -311,7 +269,6 @@
 			targets = (
 				B9BAF05F261CE0FA005CE25B /* Apply-Stefanini_Raizen */,
 				B9BAF075261CE0FF005CE25B /* Apply-Stefanini_RaizenTests */,
-				B9BAF080261CE0FF005CE25B /* Apply-Stefanini_RaizenUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -328,13 +285,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B9BAF074261CE0FF005CE25B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B9BAF07F261CE0FF005CE25B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,45 +327,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Apply-Stefanini_Raizen-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A53EFE2C2B6275C4B8C77C89 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests/Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests/Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests/Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C7F29E615C993AD03E10A3DB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -471,13 +382,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9BAF07D261CE0FF005CE25B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -485,11 +389,6 @@
 			isa = PBXTargetDependency;
 			target = B9BAF05F261CE0FA005CE25B /* Apply-Stefanini_Raizen */;
 			targetProxy = B9BAF077261CE0FF005CE25B /* PBXContainerItemProxy */;
-		};
-		B9BAF083261CE0FF005CE25B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B9BAF05F261CE0FA005CE25B /* Apply-Stefanini_Raizen */;
-			targetProxy = B9BAF082261CE0FF005CE25B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -711,48 +610,6 @@
 			};
 			name = Release;
 		};
-		B9BAF091261CE0FF005CE25B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1724388EEA5E81710AFAE941 /* Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2D9YSKR59P;
-				INFOPLIST_FILE = "Apply-Stefanini_RaizenUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Adriano-Rodrigues-Vieira.Apply-Stefanini-RaizenUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Apply-Stefanini_Raizen";
-			};
-			name = Debug;
-		};
-		B9BAF092261CE0FF005CE25B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04CA4360826DA6E2D46FFD7D /* Pods-Apply-Stefanini_Raizen-Apply-Stefanini_RaizenUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2D9YSKR59P;
-				INFOPLIST_FILE = "Apply-Stefanini_RaizenUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Adriano-Rodrigues-Vieira.Apply-Stefanini-RaizenUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Apply-Stefanini_Raizen";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -779,15 +636,6 @@
 			buildConfigurations = (
 				B9BAF08E261CE0FF005CE25B /* Debug */,
 				B9BAF08F261CE0FF005CE25B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B9BAF090261CE0FF005CE25B /* Build configuration list for PBXNativeTarget "Apply-Stefanini_RaizenUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B9BAF091261CE0FF005CE25B /* Debug */,
-				B9BAF092261CE0FF005CE25B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

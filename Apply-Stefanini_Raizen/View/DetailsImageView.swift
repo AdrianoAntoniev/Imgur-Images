@@ -22,13 +22,13 @@ struct DetailsImageView: View {
                 VStack(alignment: .leading, spacing: 5) {
                     Text("Description: \(image.description)")
                         .font(.footnote)
+                        .bold()
                     Text("Views: \(image.views)")
                         .font(.footnote)
                 }
                 
                 Spacer()
-            }
-            
+            }            
         }
         .padding(20)
     }
