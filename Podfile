@@ -9,6 +9,7 @@ target 'Apply-Stefanini_Raizen' do
 
   # Pods for Apply-Stefanini_Raizen
   pod 'Alamofire', '~> 5.2'
+  pod 'SDWebImageSwiftUI'
 
   target 'Apply-Stefanini_RaizenTests' do
     inherit! :search_paths
