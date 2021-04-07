@@ -25,9 +25,14 @@ class FetchingData {
                     for postData in data.data {
                         if let imagesData = postData.images {
                             for image in imagesData {
-                                images.append(Image(description: image.description ?? "No description",
-                                                    views: image.views,
-                                                    imageLink: image.imageLink))
+                                if !(image.imageLink.contains("mp4") || image.imageLink.contains("gif")) {
+                                    images.append(Image(description: image.description ?? "...",
+                                                        views: image.views,
+                                                        imageLink: image.imageLink))
+                                    
+                                }
+                                
+                                //print(image.imageLink)
                             }
                         }
                     }

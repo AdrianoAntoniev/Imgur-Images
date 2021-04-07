@@ -10,8 +10,7 @@ import SDWebImageSwiftUI
 
 struct ImageView: View {
     let image: Image
-    
-    
+        
     var body: some View {
         NavigationLink(destination: DetailsImageView(image: self.image)) {
             WebImage(url: URL(string: image.imageLink)!)
