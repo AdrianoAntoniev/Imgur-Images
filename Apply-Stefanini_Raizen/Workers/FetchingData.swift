@@ -26,7 +26,7 @@ class FetchingData {
                         if let imagesData = postData.images {
                             for image in imagesData {
                                 if !(image.imageLink.contains("mp4") || image.imageLink.contains("gif")) {
-                                    images.append(Image(description: image.description ?? "...",
+                                    images.append(Image(description: image.description ?? "No descriptions",
                                                         views: image.views,
                                                         imageLink: image.imageLink))
                                     
@@ -34,15 +34,12 @@ class FetchingData {
                             }
                         }
                     }
-                    
                     completion(images)
                 }
             case .failure:
                 if let error = response.error {
                     print(error.localizedDescription)
                 }
-            default:
-                print("oops... it should not be printed =/")
             }
         }
     }

@@ -46,6 +46,7 @@
 		B925493D261D3A6900B4349F /* ImagesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesRepository.swift; sourceTree = "<group>"; };
 		B932A48E261D46B100ED8055 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		B932A495261D50BA00ED8055 /* DetailsImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsImageView.swift; sourceTree = "<group>"; };
+		B932A49F261D638B00ED8055 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B96F6365261D1DE100E845BF /* FetchingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchingData.swift; sourceTree = "<group>"; };
 		B99E1474261D34800098B740 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		B9BAF060261CE0FA005CE25B /* Apply-Stefanini_Raizen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apply-Stefanini_Raizen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +149,7 @@
 		B9BAF057261CE0FA005CE25B = {
 			isa = PBXGroup;
 			children = (
+				B932A49F261D638B00ED8055 /* README.md */,
 				B9BAF062261CE0FA005CE25B /* Apply-Stefanini_Raizen */,
 				B9BAF079261CE0FF005CE25B /* Apply-Stefanini_RaizenTests */,
 				B9BAF061261CE0FA005CE25B /* Products */,

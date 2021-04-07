@@ -20,9 +20,8 @@ class Apply_Stefanini_RaizenTests: XCTestCase {
         sut.getImages { images in
             XCTAssertFalse(images.isEmpty, "Array is empty")
             expectation.fulfill()
-        }        
+        }
         
         wait(for: [expectation], timeout: 15)
     }
-
 }
