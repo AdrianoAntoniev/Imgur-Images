@@ -17,7 +17,18 @@ class FetchingData {
         let request = AF.request("https://api.imgur.com/3/gallery/hot/viral/day/0", headers: headers)
         
         request.responseJSON { response in
-            print(response.result)
+            switch response.result {
+            case .success:
+                if let data = response.value {
+                    print(data)
+                }
+            case .failure:
+                if let error = response.error {
+                    print(error.localizedDescription)
+                }
+            default:
+                print("oops... it should not be printed =/")
+            }
         }
     }
     

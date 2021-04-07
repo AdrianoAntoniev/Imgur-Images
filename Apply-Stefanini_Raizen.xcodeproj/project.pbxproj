@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		B9BAF06D261CE0FF005CE25B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9BAF06C261CE0FF005CE25B /* Preview Assets.xcassets */; };
 		B9BAF070261CE0FF005CE25B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BAF06E261CE0FF005CE25B /* LaunchScreen.storyboard */; };
 		B9BAF07B261CE0FF005CE25B /* Apply_Stefanini_RaizenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BAF07A261CE0FF005CE25B /* Apply_Stefanini_RaizenTests.swift */; };
+		B9F80D6E261D2CF100DED958 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F80D6D261D2CF100DED958 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		B9BAF07A261CE0FF005CE25B /* Apply_Stefanini_RaizenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apply_Stefanini_RaizenTests.swift; sourceTree = "<group>"; };
 		B9BAF07C261CE0FF005CE25B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B9BAF081261CE0FF005CE25B /* Apply-Stefanini_RaizenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apply-Stefanini_RaizenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F80D6D261D2CF100DED958 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		D46FFD73FD7BAAFBD5935C50 /* Pods-Apply-Stefanini_RaizenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apply-Stefanini_RaizenTests.debug.xcconfig"; path = "Target Support Files/Pods-Apply-Stefanini_RaizenTests/Pods-Apply-Stefanini_RaizenTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 		B96F635A261D1A6600E845BF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B9F80D6D261D2CF100DED958 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 				B9BAF066261CE0FA005CE25B /* SceneDelegate.swift in Sources */,
 				B9BAF068261CE0FA005CE25B /* ContentView.swift in Sources */,
 				B96F6366261D1DE100E845BF /* FetchingData.swift in Sources */,
+				B9F80D6E261D2CF100DED958 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
