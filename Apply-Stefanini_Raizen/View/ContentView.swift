@@ -10,16 +10,16 @@ import SDWebImageSwiftUI
 
 struct ContentView: View {
     @ObservedObject var imagesRepository = ImagesRepository()
-    private let gridLayout = [GridItem(.flexible(minimum: 10)),
-                              GridItem(.flexible(minimum: 10)),
-                              GridItem(.flexible(minimum: 10)),
-                              GridItem(.flexible(minimum: 10))]
+    private let gridLayout = [GridItem(.flexible()),
+                              GridItem(.flexible()),
+                              GridItem(.flexible()),
+                              GridItem(.flexible())]
     
     
     var body: some View {
         NavigationView {
             ScrollView {
-                LazyVGrid(columns: gridLayout, spacing: 10) {
+                LazyVGrid(columns: gridLayout) {
                     ForEach(imagesRepository.images, id: \.self) { image in
                         ImageView(image: image)
                     }

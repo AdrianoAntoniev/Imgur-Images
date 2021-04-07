@@ -30,9 +30,7 @@ class FetchingData {
                                                         views: image.views,
                                                         imageLink: image.imageLink))
                                     
-                                }
-                                
-                                //print(image.imageLink)
+                                }                                                                
                             }
                         }
                     }

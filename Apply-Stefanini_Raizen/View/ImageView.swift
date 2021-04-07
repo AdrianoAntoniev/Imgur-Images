@@ -15,8 +15,8 @@ struct ImageView: View {
         NavigationLink(destination: DetailsImageView(image: self.image)) {
             WebImage(url: URL(string: image.imageLink)!)
             .resizable()
-            .frame(width: 100, height: 120)
-            .shadow(color: .gray, radius: 5)
+            .frame(height: 100)
+            .shadow(color: .blue, radius: 2)
         }
     }
 }

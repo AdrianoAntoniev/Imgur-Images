@@ -16,7 +16,7 @@ struct DetailsImageView: View {
             WebImage(url: URL(string: image.imageLink))
                 .resizable()
                 .scaledToFit()
-                .shadow(color: .gray, radius: 5)
+                .shadow(color: .blue, radius: 5)
                         
             HStack {
                 VStack(alignment: .leading, spacing: 5) {
