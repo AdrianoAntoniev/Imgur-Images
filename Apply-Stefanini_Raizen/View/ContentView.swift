@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SDWebImageSwiftUI
 
 struct ContentView: View {
     @ObservedObject var imagesRepository = ImagesRepository()
@@ -16,19 +17,14 @@ struct ContentView: View {
     
     
     var body: some View {
-        LazyVGrid(columns: gridLayout) {
-            ForEach(imagesRepository.images, id: \.self) { image in
-                Text(image.imageLink)
+        ScrollView {
+            LazyVGrid(columns: gridLayout) {
+                ForEach(imagesRepository.images, id: \.self) { image in
+                    ImageView(urlImage: image.imageLink)
+                }
             }
         }
         
-//        ScrollView {
-//                LazyVStack {
-//                    ForEach(urls, id: \.self) { url in
-//                        AnimatedImage(url: url)
-//                    }
-//                }
-//            }
     }
 }
 
